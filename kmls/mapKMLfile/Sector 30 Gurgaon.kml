@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Sector 1 Gurgaon.kml</name>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>7f0000aa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>7f0000aa</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Sector 1 Gurgaon</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+77.058148,28.467718,0.0 
+77.057462,28.467982,0.0 
+77.057204,28.467982,0.0 
+77.056217,28.466624,0.0 
+77.05596,28.46602,0.0 
+77.055488,28.465492,0.0 
+77.050424,28.460206,0.0 
+77.049855,28.459629,0.0 
+77.053063,28.45732,0.0 
+77.053385,28.457131,0.0 
+77.053685,28.456981,0.0 
+77.054157,28.456848,0.0 
+77.054876,28.456582,0.0 
+77.055359,28.456356,0.0 
+77.055756,28.456035,0.0 
+77.05832,28.458905,0.0 
+77.059489,28.460025,0.0 
+77.062826,28.464134,0.0 
+77.05935,28.467224,0.0 
+77.058921,28.467544,0.0 
+77.058674,28.467722,0.0 
+77.05847,28.467703,0.0 
+77.05832,28.467722,0.0 
+77.058152,28.467718,0.0
+</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Chhatrapati Shivaji Terminus.kml</name>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>7f7faa55</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>7f7faa55</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Chhatrapati Shivaji Terminus</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						72.8379146305919,18.94845280740965,0 72.83775421013166,18.94792090770589,0 72.83733115158152,18.94726314658977,0 72.83635785878619,18.9462141359663,0 72.83566390750757,18.94538033618423,0 72.83489266498378,18.94431919696214,0 72.83450418230586,18.94405073543288,0 72.83479084814802,18.94203692923471,0 72.83492772263867,18.94086351282018,0 72.83497438996172,18.94013800658975,0 72.83502463246335,18.93962674273411,0 72.83500360427365,18.93927959239857,0 72.83494577567062,18.9389321261902,0 72.83485493710033,18.93867372781611,0 72.83505030048126,18.93859990053685,0 72.83543124983184,18.93866318124511,0 72.83580215058663,18.93868836083756,0 72.83624138490318,18.93872267484863,0 72.83687474389993,18.93855270474885,0 72.83750711993368,18.93845475263334,0 72.83790898760722,18.93829823494834,0 72.83851686395342,18.94051923177977,0 72.8404470886566,18.94862368656821,0 72.8400916903114,18.9487842229557,0 72.83970897631542,18.94885563537866,0 72.8388694470757,18.94890866666538,0 72.83796341935187,18.94896579776496,0 72.8379146305919,18.94845280740965,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

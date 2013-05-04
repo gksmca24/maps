@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Bhandup East.kml</name>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>7f7faa55</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>7f7faa55</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Bhandup East</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						72.95643814217759,19.15466176837188,0 72.94833300739684,19.15660824369086,0 72.94622062257416,19.15303657537119,0 72.94336998592236,19.14945654728381,0 72.93771181060311,19.14187171133514,0 72.93315380874992,19.13615604774748,0 72.93089624820084,19.13316450222998,0 72.92982822024176,19.13164132331826,0 72.92889962214679,19.12968674906129,0 72.92836908826392,19.12791579751746,0 72.92817939540522,19.12658852832884,0 72.92800731733281,19.12564275122852,0 72.92803348594677,19.12529812720388,0 72.93287333261121,19.12522667504314,0 72.93635472839057,19.12498322669566,0 72.93697452147933,19.12490075548035,0 72.93822740882945,19.1244868128384,0 72.95643814217759,19.15466176837188,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

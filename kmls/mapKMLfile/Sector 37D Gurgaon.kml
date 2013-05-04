@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Sector 1 Gurgaon.kml</name>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>7f0000aa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>7f0000aa</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Sector 1 Gurgaon</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+76.979313,28.462293,0.0 
+76.96352,28.453238,0.0 
+76.963692,28.452181,0.0 
+76.963778,28.449766,0.0 
+76.964207,28.44871,0.0 
+76.965752,28.447427,0.0 
+76.967554,28.44637,0.0 
+76.970515,28.444967,0.0 
+76.973305,28.44357,0.0 
+76.976609,28.442514,0.0 
+76.978154,28.442665,0.0 
+76.979356,28.442816,0.0 
+76.98103,28.442287,0.0 
+76.981587,28.442212,0.0 
+76.981974,28.442287,0.0 
+76.982489,28.442287,0.0 
+76.983047,28.442476,0.0 
+76.983733,28.442665,0.0 
+76.986909,28.443835,0.0 
+76.98575,28.445993,0.0 
+76.984291,28.448634,0.0 
+76.982124,28.451849,0.0 
+76.980386,28.456132,0.0 
+76.980042,28.457984,0.0 
+76.979914,28.459191,0.0 
+76.979613,28.460323,0.0 
+76.979442,28.461568,0.0 
+76.979315,28.462293,0.0 
+</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

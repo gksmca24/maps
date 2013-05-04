@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Matunga Road.kml</name>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>7f7faa55</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>7f7faa55</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Matunga Road</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						72.84093754047541,19.02588513185305,0 72.84134826288317,19.0256101038884,0 72.84316374297352,19.02626348780933,0 72.84362438640901,19.02618877058907,0 72.84573142992873,19.02566735425354,0 72.85587020281781,19.01894431295429,0 72.85618274385793,19.0197035515267,0 72.85690880601077,19.01945644495584,0 72.85758712673531,19.0190460537834,0 72.8602079430123,19.01893433685931,0 72.86060391143693,19.02025276181993,0 72.86058834813285,19.0220185522689,0 72.86024824284512,19.02504258496971,0 72.85998630666987,19.02621440665259,0 72.85972723925269,19.02703470810017,0 72.85926464475409,19.02780353601456,0 72.85875250961699,19.02837452302501,0 72.85745062049057,19.02953151536109,0 72.85809822441813,19.03128744639171,0 72.85587515154538,19.03283161558819,0 72.85328111096798,19.03390444008504,0 72.8527837201391,19.03410164892551,0 72.85160303023113,19.03464743547704,0 72.84860665610444,19.03033319089829,0 72.84803758619611,19.03017781184176,0 72.84714146057421,19.03027973593538,0 72.84210787115339,19.03138055110557,0 72.84093754047541,19.02588513185305,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

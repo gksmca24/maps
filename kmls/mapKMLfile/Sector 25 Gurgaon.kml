@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Sector 1 Gurgaon.kml</name>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>7f0000aa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>7f0000aa</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Sector 1 Gurgaon</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+77.071323,28.479224,0.0 
+77.071066,28.478583,0.0 
+77.07128,28.478356,0.0 
+77.071581,28.478319,0.0 
+77.072096,28.478356,0.0 
+77.073169,28.478583,0.0 
+77.074585,28.478809,0.0 
+77.081923,28.480129,0.0 
+77.084198,28.480469,0.0 
+77.086344,28.480695,0.0 
+77.087159,28.480808,0.0 
+77.087588,28.480842,0.0 
+77.08849,28.480823,0.0 
+77.089219,28.480767,0.0 
+77.090614,28.480993,0.0 
+77.091773,28.481182,0.0 
+77.092953,28.481502,0.0 
+77.094433,28.481898,0.0 
+77.094777,28.482953,0.0 
+77.094798,28.483198,0.0 
+77.09483,28.48332,0.0 
+77.094991,28.484829,0.0 
+77.09497,28.485765,0.0 
+77.094541,28.48633,0.0 
+77.094176,28.486576,0.0 
+77.093586,28.486979,0.0 
+77.093468,28.487187,0.0 
+77.093425,28.487432,0.0 
+77.093167,28.487639,0.0 
+77.092813,28.487837,0.0 
+77.092481,28.487979,0.0 
+77.092255,28.488035,0.0 
+77.091901,28.488009,0.0 
+77.091386,28.488216,0.0 
+77.090571,28.488707,0.0 
+77.089884,28.48931,0.0 
+77.089777,28.489499,0.0 
+77.089283,28.489838,0.0 
+77.089745,28.490195,0.0 
+77.089863,28.490536,0.0 
+77.091665,28.493931,0.0 
+77.092491,28.495437,0.0 
+77.092518,28.495625,0.0 
+77.092481,28.495752,0.0 
+77.092341,28.49595,0.0 
+77.092218,28.496031,0.0 
+77.090786,28.496816,0.0 
+77.089455,28.497589,0.0 
+77.089326,28.497702,0.0 
+77.088082,28.496514,0.0 
+77.087545,28.495949,0.0 
+77.086322,28.494892,0.0 
+77.078662,28.487145,0.0 
+77.071946,28.480069,0.0 
+77.071372,28.479288,0.0 
+77.07133,28.479232,0.0 
+</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

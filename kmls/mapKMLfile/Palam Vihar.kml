@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Palam Vihar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>7fff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>7fff0000</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Palam Vihar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						77.02716780532371,28.50782452214625,0 77.0287608938693,28.50216013772854,0 77.02904608012379,28.50248141506093,0 77.0303306944036,28.50316156057658,0 77.03102670751383,28.50329152760923,0 77.03305717718158,28.50359518487798,0 77.03483195409842,28.50368013368871,0 77.03619548344827,28.50370508230047,0 77.04035921581694,28.50870256963311,0 77.04232325279924,28.50853855533593,0 77.04288942916486,28.50990159281398,0 77.04198200249745,28.51076179669026,0 77.04483661061897,28.51428923537174,0 77.0457758973929,28.51671316849699,0 77.04183149325175,28.51675441248738,0 77.04153500589736,28.51681308213697,0 77.04109597416461,28.51697290136965,0 77.04075958951025,28.51728439700298,0 77.04018607696592,28.51800623517164,0 77.03978809728342,28.51839950997526,0 77.0395490535871,28.51848482004202,0 77.03955068050107,28.51865930608563,0 77.03957115034189,28.51887840697446,0 77.03953672419995,28.51916333472662,0 77.03923678171041,28.51941332601639,0 77.03901373608693,28.51960206024954,0 77.03741165241472,28.51768200039489,0 77.03699332029342,28.51745813355356,0 77.03627038611226,28.51664051711596,0 77.03443314419427,28.51478717190813,0 77.03125429258282,28.51120948883814,0 77.03089171581189,28.51071507369657,0 77.02716780532371,28.50782452214625,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

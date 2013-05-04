@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Sector 1 Gurgaon.kml</name>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>7f0000aa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>7f0000aa</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Sector 1 Gurgaon</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+77.042227,28.510114,0.0 
+77.042785,28.509888,0.0 
+77.044802,28.509322,0.0 
+77.049394,28.507663,0.0 
+77.05081,28.507172,0.0 
+77.056646,28.503514,0.0 
+77.057333,28.503137,0.0 
+77.061453,28.508492,0.0 
+77.062697,28.50951,0.0 
+77.065959,28.511358,0.0 
+77.067547,28.512226,0.0 
+77.065487,28.51249,0.0 
+77.064199,28.512716,0.0 
+77.063341,28.51264,0.0 
+77.06274,28.512565,0.0 
+77.061324,28.512226,0.0 
+77.057805,28.512339,0.0 
+77.057548,28.512829,0.0 
+77.056947,28.513093,0.0 
+77.055659,28.513923,0.0 
+77.054372,28.514337,0.0 
+77.051625,28.515318,0.0 
+77.049694,28.515883,0.0 
+77.048321,28.516261,0.0 
+77.046154,28.516634,0.0 
+77.045091,28.514087,0.0 
+77.043622,28.512314,0.0 
+77.04286,28.511437,0.0 
+77.042087,28.510476,0.0 
+77.042031,28.510389,0.0 
+77.042019,28.510379,0.0 
+77.042059,28.510339,0.0 
+77.042089,28.510317,0.0 
+77.04211,28.510291,0.0 
+77.042134,28.510258,0.0 
+77.04215,28.510223,0.0 
+77.042162,28.51019,0.0 
+77.04217,28.510155,0.0 
+77.042172,28.510137,0.0 
+77.042172,28.510129,0.0 
+77.042221,28.510115,0.0 
+</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

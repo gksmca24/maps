@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Sector 36A Gurgaon.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>7f0000aa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>7f0000aa</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Sector 36A Gurgaon</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						76.98296978357959,28.39719416636723,0 76.9832423845089,28.39738152360883,0 76.98372154287684,28.39779706072238,0 76.98413155350312,28.39817636343981,0 76.98488035372441,28.39893805717411,0 76.98566620923906,28.39968544752443,0 76.98742685497061,28.40144582348883,0 76.98772626421074,28.40180752475595,0 76.98809835123555,28.40228044018819,0 76.98835288525866,28.40276248235918,0 76.9900045737654,28.40585574634405,0 76.99012690642931,28.40607211981806,0 76.98898814093663,28.40652631654668,0 76.98815140120586,28.40700584867164,0 76.98676752063271,28.40778819697697,0 76.98330680999416,28.40978111717454,0 76.97792421444324,28.41289215570956,0 76.97944169630421,28.41546139900913,0 76.98302481127307,28.42151938066329,0 76.96874498813433,28.42151356359165,0 76.9678772632893,28.42152320314505,0 76.9646967090253,28.42156694221057,0 76.96304398367064,28.42159949237047,0 76.96364356351319,28.41937674230154,0 76.96377253885525,28.41948452837173,0 76.96428384327928,28.41823905151361,0 76.96610599389665,28.41482592391612,0 76.96832547049311,28.41095703037206,0 76.96989556679569,28.40890665921667,0 76.97076859269012,28.40780326456483,0 76.97360588852115,28.40502648747082,0 76.97575518886852,28.40308892066238,0 76.97976381694276,28.40002402515739,0 76.97963680685584,28.39960588306658,0 76.98296978357959,28.39719416636723,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

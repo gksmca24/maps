@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Sector 1 Gurgaon.kml</name>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>7f0000aa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>7f0000aa</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Sector 1 Gurgaon</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+76.87108,28.397441,0.0 
+76.871595,28.390872,0.0 
+76.881595,28.400612,0.0 
+76.886101,28.402764,0.0 
+76.886659,28.403821,0.0 
+76.887517,28.40484,0.0 
+76.888676,28.406085,0.0 
+76.890049,28.406765,0.0 
+76.890907,28.407482,0.0 
+76.88962,28.408954,0.0 
+76.886144,28.407256,0.0 
+76.885242,28.406652,0.0 
+76.883869,28.40567,0.0 
+76.88314,28.405142,0.0 
+76.882281,28.404538,0.0 
+76.881766,28.404198,0.0 
+76.880951,28.403934,0.0 
+76.879921,28.403481,0.0 
+76.879449,28.403179,0.0 
+76.878462,28.402537,0.0 
+76.877003,28.401707,0.0 
+76.875629,28.400952,0.0 
+76.874299,28.399895,0.0 
+76.871767,28.397969,0.0 
+76.871102,28.397453,0.0 
+
+ </coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

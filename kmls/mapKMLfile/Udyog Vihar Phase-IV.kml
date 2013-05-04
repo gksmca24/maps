@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Udyog Vihar Phase-IV.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>7fff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>7fff0000</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Udyog Vihar Phase-IV</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						77.08554739303557,28.49601735058645,0 77.08214850655581,28.49853170458989,0 77.08288763395981,28.49934755707445,0 77.08229648400649,28.49955862257837,0 77.08251271091984,28.50018331041623,0 77.08269223570109,28.50012288199241,0 77.08261054716087,28.50178050096855,0 77.08165205533804,28.50141584288228,0 77.08084764193255,28.50117383674837,0 77.07991454154252,28.50099205732099,0 77.07900044924655,28.50091273522925,0 77.07749119665515,28.50076094444501,0 77.07603960178261,28.50074486103669,0 77.07494586897185,28.50080910668677,0 77.07399010546787,28.500977560847,0 77.07337478191067,28.50114640197532,0 77.07289773486723,28.50148660018639,0 77.07301000125024,28.50185834520313,0 77.07256549305492,28.50189953556098,0 77.07252088139164,28.50276854996192,0 77.07223960660288,28.50323084684999,0 77.07139369825924,28.50323238768605,0 77.07176030798368,28.50373367493473,0 77.06892318124908,28.50383666359934,0 77.07002437891052,28.50311351770117,0 77.06954384016785,28.50260369616446,0 77.07225418036563,28.50075673806707,0 77.07272350406385,28.50070067517769,0 77.07273158407215,28.49995658145095,0 77.07344950767323,28.49895399706848,0 77.07874722246832,28.4990561790306,0 77.07878684152247,28.49288438377858,0 77.07933987645124,28.49247283026078,0 77.07762578342785,28.49053735713719,0 77.07906919460781,28.48931551487762,0 77.08554739303557,28.49601735058645,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

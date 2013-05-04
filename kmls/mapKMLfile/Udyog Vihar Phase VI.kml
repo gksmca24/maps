@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Udyog Vihar Phase VI.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>7fff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>7fff0000</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Udyog Vihar Phase VI</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						76.9937914690819,28.42863024172754,0 76.99491258338257,28.42804861480648,0 76.99507174612616,28.42801415841072,0 76.99521705865372,28.42802076843336,0 76.99642362174468,28.42738080106348,0 77.00059861802397,28.43162829464331,0 77.00125515064016,28.43239144543877,0 77.00160252876341,28.43281885415464,0 77.00189633372131,28.433288013555,0 77.00212903986038,28.43363409031441,0 77.00244089224579,28.43397867239008,0 77.00292981103395,28.43462389323848,0 77.00343278194158,28.43535264241918,0 77.00383317177023,28.43590009591814,0 77.00415675485402,28.43629633587838,0 77.00457718696778,28.43679780182393,0 77.00500393006654,28.43719874736582,0 77.00535931478808,28.437515583311,0 77.00595560993874,28.43818462552473,0 77.00508454091256,28.43873974454899,0 77.00427204752351,28.43930095488635,0 77.0035507319885,28.43984115950924,0 77.00291605310025,28.44028322008252,0 77.0025011015553,28.44056702374109,0 77.00111524823458,28.43887945445797,0 77.00062907073733,28.43831647278265,0 76.99569011527794,28.4314038991833,0 76.9937914690819,28.42863024172754,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

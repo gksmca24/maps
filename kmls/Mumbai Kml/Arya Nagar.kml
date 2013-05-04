@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Arya Nagar.kml</name>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>7f7faa55</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>7f7faa55</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Arya Nagar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						72.81493319564734,18.97233495831279,0 72.81603616218504,18.97252226856664,0 72.81705626890788,18.97268908226974,0 72.81777703409689,18.97267795930255,0 72.81847597993122,18.97264983373632,0 72.81888236147523,18.97275364106954,0 72.81907110458161,18.97398377037112,0 72.81932963827747,18.976168891559,0 72.81950842122927,18.97729468475498,0 72.8195416853856,18.97883649372,0 72.8196645573758,18.97963805046947,0 72.81337378227923,18.97835408386935,0 72.81229023391143,18.97804270232191,0 72.81180420792899,18.97785782962515,0 72.81158426905769,18.97776113221783,0 72.81193962060132,18.9769583512973,0 72.81260298894661,18.97578356972356,0 72.81312005000098,18.97491479334163,0 72.81354567805879,18.97438582560869,0 72.81399480753285,18.97397967751379,0 72.81438843442659,18.97350083485724,0 72.81470596167009,18.97300635347294,0 72.81493319564734,18.97233495831279,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

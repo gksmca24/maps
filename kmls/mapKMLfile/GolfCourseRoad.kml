@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>GolfCourseRoad.kml</name>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4cff0000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4cff0000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>GolfCourseRoad</name>
+		<LookAt>
+			<longitude>77.10802230819334</longitude>
+			<latitude>28.42961337292809</latitude>
+			<altitude>0</altitude>
+			<heading>0.01339795651109577</heading>
+			<tilt>40.60764412785337</tilt>
+			<range>5356.874731201731</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						77.09148809194434,28.41756151071029,0 77.0975144471722,28.41741545897176,0 77.10048462759754,28.418250732422,0 77.103517599691,28.41912054602243,0 77.10545152190869,28.41973176832295,0 77.10711166858694,28.42069599907993,0 77.10830868351219,28.42131451072182,0 77.10951720212708,28.42171653488246,0 77.11400646112753,28.42620650838082,0 77.113447667724,28.43133508885773,0 77.11570898979583,28.43558999570448,0 77.1161304374329,28.43893787602659,0 77.11596708897933,28.44918107749097,0 77.11386139789754,28.45258518012559,0 77.10636308304584,28.46423121263917,0 77.09618196521032,28.46313999921799,0 77.07453938050499,28.45889039607734,0 77.07426650057252,28.45804618718309,0 77.07444269770403,28.45425681854351,0 77.07542134459978,28.45288641332747,0 77.07718646056068,28.45026212874205,0 77.07918308584894,28.44768774805518,0 77.08370985984767,28.44345734568663,0 77.08685244968712,28.44080453784885,0 77.08933667642313,28.43879416050913,0 77.09040255054437,28.43684331698944,0 77.09136408537675,28.42993323272933,0 77.09130811469433,28.41824192901757,0 77.09148809194434,28.41756151071029,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
